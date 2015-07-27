@@ -1,0 +1,140 @@
+@import url('http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700');
+@import url('http://openfontlibrary.org/face/glacial-indifference');
+
+
+body {
+    font-family: 'Old Standard TT', serif;
+    font-size:24px;
+    color: #000;
+    line-height: 1.2;
+}
+
+img {
+
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+
+
+}
+
+.wrapper {
+    max-width: 26em;
+    margin: 0 auto;
+
+}
+
+p {
+
+    font-size: 1em;
+
+}
+
+
+ul {
+
+    padding: 0;
+    list-style-type: none;
+
+}
+
+form, input {
+
+    font-family: 'Old Standard TT', serif;
+    font-size: 1em;
+
+
+	
+}
+
+.post {
+    margin: 0 0 3em 0;
+
+
+}
+
+.post-title {
+    margin: 0;
+    padding: 0;    
+
+}
+.excerpt {
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+.nav {
+
+    margin: 4em 0; 
+
+}
+
+.nav li {
+
+    margin: 0 0 1em 0; 
+
+}
+
+header {
+
+    padding: 0 0 2em 0;
+
+
+    
+}
+
+footer{
+    border-top: 1px dotted #eee;
+    padding: 2em 0;
+    margin: 4em 0;
+
+}
+
+.logotype {
+
+    border: 1px solid black;
+    background: white;
+    color: black;
+    padding: 6px 12px;        
+}
+
+.logotype:hover {
+
+    border: 0px;
+    background: black;
+    color: white;
+}
+
+.title {
+
+    padding: 0;
+    margin: 0;
+}
+
+.logo, .email, .mailing-list {
+
+    margin: 2em 0;
+
+}
+
+.tags {
+
+    border-top: 1px dotted #eee;
+    padding: 2em 0 0 0;
+    margin: 4em 0;
+
+}
+
+.cover-image {
+
+    max-width: 50%;
+    margin: 0 0 0.em 0;
+
+}
+/*# sourceMappingURL=main.css.map */
