@@ -2,10 +2,13 @@
   {{#foreach posts}}
 
     <li class="post">
+      {{> cover-image}}      
       <a href="{{url}}">
         <h4 class="post-title">{{title}}</h4>
+        <div class="excerpt"><em>{{excerpt words="2"}}</em></div>        
       </a>
-      <div class="excerpt"><em>{{excerpt words="2"}}</em></div>
+
+      
     </li>
 
   {{/foreach}}
