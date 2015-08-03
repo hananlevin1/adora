@@ -1,0 +1,3 @@
+* flatness
+
+flatness is a barebones theme for Ghost.

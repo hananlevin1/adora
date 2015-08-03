@@ -1,12 +1,25 @@
 @import url('http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700');
-@import url('http://openfontlibrary.org/face/glacial-indifference');
 
 
 body {
     font-family: 'Old Standard TT', serif;
-    font-size:24px;
+    font-size:18px;
     color: #000;
-    line-height: 1.2;
+    line-height: 1.3;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+ 
+body::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+
 }
 
 img {
@@ -55,6 +68,12 @@ form, input {
 	
 }
 
+.index {
+    border-top: 1px dotted #eee;
+    margin: 4em 0 0 0;
+
+}
+
 .posts {
     margin: 3em 0;
 
@@ -98,12 +117,15 @@ header {
     
 }
 
-footer{
+footer {
     border-top: 1px dotted #eee;
     padding: 2em 0;
     margin: 4em 0;
 
+	       
+
 }
+
 
 .logotype {
 
@@ -156,7 +178,7 @@ footer{
 
 .cover-image {
 
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 0 0.5em 0;
 
 }
