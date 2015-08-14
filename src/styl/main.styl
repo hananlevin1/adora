@@ -4,6 +4,7 @@ adora-font = 'Laila', serif
 adora-green = #53ffdb
 adora-pink = #F08894
 
+wrapper = 26em
 sidebar = 16em
 
 body
@@ -17,13 +18,11 @@ body
   line-height 1.3
   text-shadow 2px 2px rgba(0, 0, 0, 0.24)
 
-  +below(500px)
-    font-size 50px
     
 
 
 body::-webkit-scrollbar 
-  width 0.6em
+  width 13px
 
  
 body::-webkit-scrollbar-track 
@@ -97,7 +96,22 @@ footer
 
 
 .container
-  margin-left sidebar
+  margin-left 10em
 
 
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
