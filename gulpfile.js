@@ -2,8 +2,8 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('autoprefixer'),
-    lost = require('lost'),
-    modularscale = require('postcss-modular-scale');
+    lost = require('lost');
+
 
 var paths = {
     cssSource: 'src/css/',
@@ -15,8 +15,7 @@ gulp.task('styles', function() {
 	.pipe(sourcemaps.init())
 	.pipe(postcss([
 	    lost(),
-	    autoprefixer(),
-	    modularscale()
+	    autoprefixer()
 	    
 	]))
 	.pipe(sourcemaps.write('./'))
