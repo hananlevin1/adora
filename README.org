@@ -1,3 +1,18 @@
 * adora
 
 adora is a Ghost theme for adoralevin.com
+
+** Installation
+
+- Install [Ghost](http://support.ghost.org/installing-ghost-linux/)
+- Navigate to your Ghost installation
+- cd content/themes
+- git clone https://github.com/evilkrow/adora.git
+
+*** Development
+- npm install && npm start
+- In another terminal run gulp
+
+*** Production
+- Choose adora theme in Ghost admin panel 
+
