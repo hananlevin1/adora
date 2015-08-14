@@ -1,204 +1,103 @@
-@import url('http://fonts.googleapis.com/css?family=Laila:700');
+@import url('http://fonts.googleapis.com/css?family=Laila:700')
 
+adora-font = 'Laila', serif
+adora-green = #53ffdb
+adora-pink = #F08894
+
+sidebar = 16em
 
 body
-    font-family: 'Laila', serif;
-    font-size:28px;
-    background: #53ffdb;
-    line-height: 1.3;
+  font-family adora-font
+  font-size 28px
+  background adora-green
+  color adora-pink
+  text-align center
+  text-transform uppercase
+  font-weight 700
+  line-height 1.3
+  text-shadow 2px 2px rgba(0, 0, 0, 0.24)
 
-    color: #F08894;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Laila', serif;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
-
-body::-webkit-scrollbar {
-    width: 0.6em;
-}
- 
-body::-webkit-scrollbar-track {
-    background-color: #53ffdb;
-}
-
-
-body::-webkit-scrollbar-thumb {
-  background-color: #f08894;
-
-}
-
-img {
-
-    max-width: 100%;
-}
-
-* > a {
-    text-decoration: none;
-    color: #000;
-    border-bottom: 1px solid red;
-}
-
-a:hover {
-
-
-}
-
-
-.wrapper {
-    max-width: 24em;
-    margin: 0 auto;
-    padding: 0;
-
-}
-
-.home {
-    color: #F08894;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Laila', serif;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
-
-}
-
-.home h1 {
-
-    margin: 0 0 1em 0;
-
-}
-
-
-.home p {
-
-    margin-bottom: 1em;
-    line-height: 1.2;
-}
-
-
-ul {
-
-    padding: 0;
-    list-style-type: none;
-
-}
-
-form, input {
-
-    font-family: 'Old Standard TT', serif;
-    font-size: 1em;
-
-}
-
-.index {
-    margin: 4em 0 0 0;
-
-}
-
-.posts {
-    margin: 3em 0;
-
-
-}
-
-.post {
-    margin: 0 0 3em 0;
-
-
-}
-
-
-.post-title {
-    margin: 0;
-    padding: 0;    
-
-}
-.excerpt {
-    padding: 0;
-    margin: 0.25em 0 1em 0;
-}
-
-.nav {
-
-    margin: 4em 0; 
-
-}
-
-.nav li {
-
-    margin: 0 0 1em 0; 
-
-}
-
-header {
-
-    padding: 0 0 2em 0;
-
-
+  +below(500px)
+    font-size 50px
     
-}
-
-footer {
-    padding: 2em 0;
-    margin: 4em 0;
-
-	       
-
-}
 
 
-.logotype {
+body::-webkit-scrollbar 
+  width 0.6em
 
-    padding: 6px 12px;        
-    background: white;
-    color: black;
-    border: 1px solid black;    
-}
-
-.logotype:hover {
-
-    background: black;
-    color: white;
-
-}
-
-.highlight {
-
-    border-bottom: 1px solid red;
-
-}
-
-.title {
-
-    padding: 0;
-    margin: 0;
-}
-
-.logo {
-
-    margin: 1em 0;
-
-}
+ 
+body::-webkit-scrollbar-track 
+  background-color adora-green
 
 
-.email, .mailing-list {
+body::-webkit-scrollbar-thumb 
+  background-color #f08894
 
-    margin: 2em 0;
+img 
+    max-width 100%
 
-}
+
+* > a 
+  text-decoration none
+
+  
+ul 
+  padding 0
+  list-style-type none
+
+form, input 
+  font-family adora-font
+  font-size 1em
+
+.index 
+  margin 4em 0 0 0
+
+.posts 
+  margin 3em 0
+
+.post 
+  margin 0 0 3em 0
+
+.post-title 
+  margin 0
+  padding 0    
+
+.excerpt 
+  padding 0
+  margin 0.25em 0 1em 0
+
+.nav 
+  font-size 0.8em
+
+  a
+    color adora-green 
+
+.nav li 
+  margin 0 0 1em 0 
+
+header 
+  padding 0 0 2em 0
+
+footer 
+  padding 2em 0
+  margin 4em 0
+
+  
+.sidebar
+  max-width sidebar
+  height 100vh
+  position fixed
+  left 0
+  top 0
+  padding 1em
+  background adora-pink
+  color adora-green
+  margin 0
+  
 
 
-.tags {
+.container
+  margin-left sidebar
 
-    border-top: 1px dotted #eee;
-    padding: 2em 0 0 0;
-    margin: 4em 0;
 
-}
 
-.cover-image {
-
-    max-width: 100%;
-    margin: 0 0 0.5em 0;
-
-}

@@ -3,7 +3,8 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('autoprefixer'),
     lost = require('lost'),
-    stylus = require('gulp-stylus'),    
+    typographic = require('typographic'),    
+    stylus = require('gulp-stylus'),
     rupture = require('rupture');
 
 
@@ -16,7 +17,10 @@ gulp.task('styles', function() {
     return gulp.src(paths.cssSource + '**/*.styl')
 	.pipe(sourcemaps.init())
 	.pipe(stylus({
-            use:[rupture()],
+            use:[
+		rupture(),
+		typographic()		
+	    ]
 	}))    
 	.pipe(postcss([
 	    lost(),
