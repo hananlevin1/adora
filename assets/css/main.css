@@ -1,207 +1,124 @@
-@import url('http://fonts.googleapis.com/css?family=Laila:700');
-
-
+@import url("http://fonts.googleapis.com/css?family=Laila:700");
 body {
-    font-family: 'Laila', serif;
-    font-size:28px;
-    background: #53ffdb;
-    line-height: 1.3;
-
-    color: #F08894;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Laila', serif;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
-    
+  font-family: 'Laila', serif;
+  font-size: 28px;
+  background: #53ffdb;
+  line-height: 1.3;
+  color: #f08894;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Laila', serif;
+  text-shadow: 2px 2px rgba(0,0,0,0.24);
 }
-
 body::-webkit-scrollbar {
-    width: 0.6em;
+  width: 0.6em;
 }
- 
 body::-webkit-scrollbar-track {
-    background-color: #53ffdb;
+  background-color: #53ffdb;
 }
-
-
 body::-webkit-scrollbar-thumb {
   background-color: #f08894;
-
 }
-
 img {
-
-    max-width: 100%;
+  max-width: 100%;
 }
-
 * > a {
-    text-decoration: none;
-    color: #000;
-    border-bottom: 1px solid red;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #f00;
 }
-
-a:hover {
-
-
-}
-
-
 .wrapper {
-    max-width: 24em;
-    margin: 0 auto;
-    padding: 0;
-
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0;
 }
-
 .home {
-    color: #F08894;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Laila', serif;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.24);
-
+  color: #f08894;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Laila', serif;
+  text-shadow: 2px 2px rgba(0,0,0,0.24);
 }
-
 .home h1 {
-
-    margin: 0 0 1em 0;
-
+  margin: 0 0 1em 0;
 }
-
-
 .home p {
-
-    margin-bottom: 1em;
-    line-height: 1.2;
+  margin-bottom: 1em;
+  line-height: 1.2;
 }
-
-
 ul {
-
-    padding: 0;
-    list-style-type: none;
-
+  padding: 0;
+  list-style-type: none;
 }
-
-form, input {
-
-    font-family: 'Old Standard TT', serif;
-    font-size: 1em;
-
+form,
+input {
+  font-family: 'Old Standard TT', serif;
+  font-size: 1em;
 }
-
 .index {
-    margin: 4em 0 0 0;
-
+  margin: 4em 0 0 0;
 }
-
 .posts {
-    margin: 3em 0;
-
-
+  margin: 3em 0;
 }
-
 .post {
-    margin: 0 0 3em 0;
-
-
+  margin: 0 0 3em 0;
 }
-
-
 .post-title {
-    margin: 0;
-    padding: 0;    
-
+  margin: 0;
+  padding: 0;
 }
 .excerpt {
-    padding: 0;
-    margin: 0.25em 0 1em 0;
+  padding: 0;
+  margin: 0.25em 0 1em 0;
 }
-
 .nav {
-
-    margin: 4em 0; 
-
+  margin: 4em 0;
 }
-
 .nav li {
-
-    margin: 0 0 1em 0; 
-
+  margin: 0 0 1em 0;
 }
-
 header {
-
-    padding: 0 0 2em 0;
-
-
-    
+  padding: 0 0 2em 0;
 }
-
 footer {
-    padding: 2em 0;
-    margin: 4em 0;
-
-	       
-
+  padding: 2em 0;
+  margin: 4em 0;
 }
-
-
 .logotype {
-
-    padding: 6px 12px;        
-    background: white;
-    color: black;
-    border: 1px solid black;    
+  padding: 6px 12px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
-
 .logotype:hover {
-
-    background: black;
-    color: white;
-
+  background: #000;
+  color: #fff;
 }
-
 .highlight {
-
-    border-bottom: 1px solid red;
-
+  border-bottom: 1px solid #f00;
 }
-
 .title {
-
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-
 .logo {
-
-    margin: 1em 0;
-
+  margin: 1em 0;
 }
-
-
-.email, .mailing-list {
-
-    margin: 2em 0;
-
+.email,
+.mailing-list {
+  margin: 2em 0;
 }
-
-
 .tags {
-
-    border-top: 1px dotted #eee;
-    padding: 2em 0 0 0;
-    margin: 4em 0;
-
+  border-top: 1px dotted #eee;
+  padding: 2em 0 0 0;
+  margin: 4em 0;
 }
-
 .cover-image {
-
-    max-width: 100%;
-    margin: 0 0 0.5em 0;
-
+  max-width: 100%;
+  margin: 0 0 0.5em 0;
 }
+
 /*# sourceMappingURL=main.css.map */

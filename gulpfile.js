@@ -2,17 +2,22 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('autoprefixer'),
-    lost = require('lost');
+    lost = require('lost'),
+    stylus = require('gulp-stylus'),    
+    rupture = require('rupture');
 
 
 var paths = {
-    cssSource: 'src/css/',
+    cssSource: 'src/styl/',
     cssDestination: 'assets/css/'
 };
 
 gulp.task('styles', function() {
-    return gulp.src(paths.cssSource + '**/*.css')
+    return gulp.src(paths.cssSource + '**/*.styl')
 	.pipe(sourcemaps.init())
+	.pipe(stylus({
+            use:[rupture()],
+	}))    
 	.pipe(postcss([
 	    lost(),
 	    autoprefixer()
@@ -22,6 +27,6 @@ gulp.task('styles', function() {
 	.pipe(gulp.dest(paths.cssDestination));
 });
 
-gulp.watch(paths.cssSource + '**/*.css', ['styles']);
+gulp.watch(paths.cssSource + '**/*.styl', ['styles']);
 
 gulp.task('default', ['styles']);
