@@ -1,4 +1,3 @@
-* flatness
+* adora
 
-flatness is a barebones theme for Ghost.
-Made for flatness.eu
+adora is a Ghost theme for adoralevin.com

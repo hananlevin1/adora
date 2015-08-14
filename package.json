@@ -1,12 +1,12 @@
 {
-  "name": "flatness",
+  "name": "adora",
   "version": "1.0.0",
-  "description": "flatness",
+  "description": "adora",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brud",
+  "author": "Jibber-Jabber",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^5.2.0",
