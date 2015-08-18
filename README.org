@@ -16,3 +16,4 @@
 *** Production
 - Choose adora theme in Ghost admin panel 
 
+*** Todo
