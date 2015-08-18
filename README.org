@@ -1,6 +1,6 @@
 * adora
-
-adora is a Ghost theme for adoralevin.com
+  
+  adora is a Ghost theme for adoralevin.com
 
 ** Installation
 
