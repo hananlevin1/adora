@@ -44,16 +44,12 @@ nav a {
 nav li {
   margin: 0 0 2em 0;
 }
-.container {
-  lost-container: 4/5;
-}
 .container .home {
   text-align: justify;
   max-width: 32em;
   margin: 0 auto;
 }
 .sidebar {
-  lost-container: 1/5;
   background: #f08894;
   color: #53ffdb;
   padding: 2em 0;
