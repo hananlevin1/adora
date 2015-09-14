@@ -49,9 +49,13 @@ nav li {
   max-width: 32em;
   margin: 0 auto;
 }
+.tagline {
+  margin: 4em 0;
+  font-size: 1.1em;
+}
 .about {
   margin: 4em 0;
-  padding: 2em 0;
+  padding: 2em;
   color: #53ffdb;
   background: #f08894;
 }
