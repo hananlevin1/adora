@@ -60,12 +60,12 @@ nav li {
   background: #f08894;
 }
 .sidebar {
-  background: #f08894;
-  color: #53ffdb;
+  background: #53ffdb;
+  color: #f08894;
   padding: 2em 0;
 }
 .sidebar a {
-  color: #fff;
+  color: #f08894;
 }
 .video-container {
   position: relative;
