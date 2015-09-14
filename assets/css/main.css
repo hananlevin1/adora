@@ -45,9 +45,15 @@ nav a {
 nav li {
   margin: 0 0 2em 0;
 }
-.container .home {
+.home {
   max-width: 32em;
   margin: 0 auto;
+}
+.about {
+  margin: 4em 0;
+  padding: 2em 0;
+  color: #53ffdb;
+  background: #f08894;
 }
 .sidebar {
   background: #f08894;
