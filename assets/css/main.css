@@ -1,4 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Laila:700");
+html {
+  height: 100%;
+}
 body {
   font-family: 'Laila', serif;
   font-size: 24px;
@@ -15,10 +18,10 @@ body::-webkit-scrollbar {
   width: 13px;
 }
 body::-webkit-scrollbar-track {
-  background-color: #fff;
+  background-color: #f08894;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #000;
+  background-color: #53ffdb;
 }
 img {
   max-width: 100%;
@@ -86,6 +89,20 @@ nav li {
 }
 .logo {
   text-align: center;
+  margin: 1em 0;
+}
+footer {
+  background: #f08894;
+  color: #53ffdb;
+  margin: 2em 0 0 0;
+  padding: 1em 0;
+}
+footer i {
+  margin: 0 0.2em;
+  padding: 1em;
+}
+footer a {
+  color: #53ffdb;
 }
 
 /*# sourceMappingURL=main.css.map */
