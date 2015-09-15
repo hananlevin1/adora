@@ -48,7 +48,8 @@ nav a {
 nav li {
   margin: 0 0 2em 0;
 }
-.home {
+.home,
+.page {
   max-width: 32em;
   margin: 0 auto;
 }
