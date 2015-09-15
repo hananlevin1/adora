@@ -1,6 +1,11 @@
 {{!< default}}
+  
+{{> logotype}}
 
-<h2>{{tag.name}}</h2>
+{{#tag}}
+  <h2>{{description}}</h2>
+{{/tag}}
+
 {{> list}}
 {{> footer}}
 
