@@ -109,5 +109,9 @@ footer i {
 footer a {
   color: #53ffdb;
 }
+.music-logo {
+  max-width: 200px;
+  margin: 2em 0;
+}
 
 /*# sourceMappingURL=main.css.map */
