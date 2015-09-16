@@ -53,6 +53,9 @@ nav li {
   max-width: 32em;
   margin: 0 auto;
 }
+.give {
+  color: #000;
+}
 .tagline {
   margin: 2em 0;
   font-size: 1.1em;
