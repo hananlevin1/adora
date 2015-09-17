@@ -43,7 +43,7 @@ nav {
   font-size: 0.8em;
 }
 nav a {
-  color: #53ffdb;
+  color: #000;
 }
 nav li {
   margin: 0 0 1.3em 0;
@@ -69,11 +69,11 @@ nav li {
 }
 .sidebar {
   background: #53ffdb;
-  color: #f08894;
+  color: #000;
   padding: 1em 0;
 }
 .sidebar a {
-  color: #f08894;
+  color: #000;
 }
 .video-container {
   position: relative;
@@ -98,7 +98,7 @@ nav li {
 }
 footer {
   background: #f08894;
-  color: #53ffdb;
+  color: #000;
   margin: 2em 0 0 0;
   padding: 1em 0;
 }
@@ -107,7 +107,7 @@ footer i {
   padding: 1em;
 }
 footer a {
-  color: #53ffdb;
+  color: #000;
 }
 .music-logo {
   max-width: 200px;
