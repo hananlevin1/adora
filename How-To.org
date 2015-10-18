@@ -1,0 +1,13 @@
+////////
+/How-To/
+////////
+
+* For Hanan
+** Logins
+** Editing
+
+* For the Programmer 
+** General
+We use Ghost, with Gulp.
+
+
